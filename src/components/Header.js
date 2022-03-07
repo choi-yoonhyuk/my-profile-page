@@ -164,7 +164,9 @@ function Header() {
             <SpanA></SpanA>
             <SpanB></SpanB>
           </GnbBtn>
-          <Logo href="/">Choi's Page</Logo>
+          <Link style={{ cursor: "pointer" }} to="0" spy={true} smooth={true}>
+            <Logo>Choi's Page</Logo>
+          </Link>
           <Contact>
             {/* react-scroll 을 이용하여 위치로 이동 */}
             <Link style={{ cursor: "pointer" }} to="5" spy={true} smooth={true}>

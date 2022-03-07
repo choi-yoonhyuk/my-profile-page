@@ -7,16 +7,14 @@ import Info from "./components/Info";
 import Skill from "./components/Skill";
 import Project from "./components/Project";
 import Footer from "./components/Footer";
-import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <>
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-      </Routes>
-
+      <div id="0">
+        <Home />
+      </div>
       <div id="1">
         <Info />
       </div>
