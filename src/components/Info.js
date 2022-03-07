@@ -10,6 +10,9 @@ import Mail from "../static/mail.png";
 
 const Container = styled.div`
   padding: 100px 0;
+  @media screen and (max-width: 500px) {
+    padding: 150px 0;
+  }
 `;
 
 const Inner = styled.div`
