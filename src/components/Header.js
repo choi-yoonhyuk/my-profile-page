@@ -9,8 +9,8 @@ const Wrap = styled.div`
 `;
 
 const Head = styled.div`
-  padding: 20px 0 18px;
   width: 100%;
+  padding: 20px 0 18px;
   position: fixed;
   top: 0;
   left: 0;

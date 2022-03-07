@@ -9,7 +9,7 @@ const Container = styled.section`
 `;
 
 const Inner = styled.div`
-  width: 1400px;
+  width: 100%;
   margin: 0 auto;
   position: relative;
   z-index: -1;
@@ -23,23 +23,17 @@ const List = styled.ul`
   width: 48%;
   @media screen and (max-width: 1024px) {
     display: flex;
+    width: 100%;
     flex-direction: column;
-    align-items: center;
-    padding-left: 200px;
   }
   @media screen and (max-width: 768px) {
-    width: 90%;
-    padding-left: 5%;
+    width: 100%;
     gap: 100px;
-  }
-  @media screen and (max-width: 500px) {
-    width: 80%;
-    padding-left: 10%;
   }
 `;
 
 const Li = styled.li`
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 
   &:last-child {
     margin-bottom: 0;
@@ -83,7 +77,7 @@ const Title = styled.h2`
 `;
 
 const P = styled.p`
-  font-size: 20px;
+  font-size: 25px;
   line-height: 1.2;
   margin: 40px 0;
   letter-spacing: 1px;
@@ -142,7 +136,7 @@ function Skill() {
       <Inner>
         <List>
           <Li>
-            {scrollPos > 1800 && scrollPos < 2150 ? (
+            {scrollPos > 1800 && scrollPos < 2250 ? (
               <ImgWrapMotion>
                 <Img src={Test1} />
                 <MotionSpan>Frontend</MotionSpan>
@@ -154,7 +148,7 @@ function Skill() {
             )}
           </Li>
           <Li>
-            {scrollPos > 2150 && scrollPos < 2500 ? (
+            {scrollPos > 2250 && scrollPos < 2750 ? (
               <ImgWrapMotion>
                 <Img src={Test2} />
                 <MotionSpan>Deployment / Version Control</MotionSpan>
@@ -166,7 +160,7 @@ function Skill() {
             )}
           </Li>
           <Li>
-            {scrollPos > 2550 && scrollPos < 3150 ? (
+            {scrollPos > 2700 && scrollPos < 3250 ? (
               <ImgWrapMotion>
                 <Img src={Test3} />
                 <MotionSpan>Certificate</MotionSpan>
@@ -179,7 +173,7 @@ function Skill() {
           </Li>
         </List>
         <Fix>
-          {scrollPos > 1800 && scrollPos < 3100 && (
+          {scrollPos > 1800 && scrollPos < 3250 && (
             <Text>
               <Title>Skill</Title>
               <P>

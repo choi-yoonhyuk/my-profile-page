@@ -10,7 +10,7 @@ const Containter = styled.div`
 `;
 
 const Visual = styled.section`
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   position: relative;
 `;

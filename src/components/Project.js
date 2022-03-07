@@ -9,20 +9,19 @@ import D from "../static/d.mp4";
 import E from "../static/e.mp4";
 import F from "../static/f.mp4";
 import G from "../static/g.mp4";
+import { useEffect } from "react";
 
 const Container = styled.section`
   padding: 100px 0;
   height: auto;
   background-color: #ecf0f1;
   z-index: 2;
+  width: 100%;
 `;
 
 const Inner = styled.div`
-  width: 1400px;
+  width: 100%;
   margin: 0 auto;
-  @media screen and (max-width: 1024px) {
-    width: 100%;
-  }
 `;
 
 const Grid = styled.div`
@@ -205,6 +204,9 @@ const Icon = styled.img`
 `;
 
 const Project = () => {
+  useEffect(() => {
+    console.log("render");
+  }, []);
   return (
     <Container>
       <Inner>

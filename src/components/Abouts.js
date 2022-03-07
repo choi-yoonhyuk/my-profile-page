@@ -8,11 +8,11 @@ const Containter = styled.section`
 `;
 
 const Inner = styled.div`
-  width: 1400px;
+  width: 100%;
   margin: 0 auto;
   padding-left: 100px;
   @media screen and (max-width: 768px) {
-    width: 90%;
+    width: 100%;
   }
   @media screen and (max-width: 500px) {
     width: 90%;
