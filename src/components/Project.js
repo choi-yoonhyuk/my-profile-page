@@ -140,7 +140,7 @@ const PortContent = styled.div`
   font-size: 18px;
   line-height: 1.2;
   letter-spacing: 1px;
-  line-height: 1.5;
+  line-height: 1.8;
   margin-top: 60px;
   width: 600px;
   height: 200px;
@@ -204,9 +204,6 @@ const Icon = styled.img`
 `;
 
 const Project = () => {
-  useEffect(() => {
-    console.log("render");
-  }, []);
   return (
     <Container>
       <Inner>
@@ -232,6 +229,7 @@ const Project = () => {
                   <br />
                   Mongodb, Express.js, React.js, Node.js을 사용하여 만든 서비스
                   입니다.
+                  <br />
                 </PortContent>
               </PortWrap1>
               <PortWrap2>
@@ -254,18 +252,17 @@ const Project = () => {
                 <PortContent>
                   오늘의 감정을 5단계로 표현가능한 감정일기장 'My Diary' 입니다.
                   <br />
-                  1인 솔로 프로젝트이며 React의 전반적인 지식을 학습하는데 많은
-                  도움이 된 프로젝트 입니다.
-                  <br />
                   날짜를 정하고 다섯 가지의 감정 중 나의 감정을 골라 내용을
                   작성하는 방식입니다.
+                  <br />
+                  React를 사용하여 만든 서비스 입니다.
                 </PortContent>
               </PortWrap1>
               <PortWrap2>
-                <Linked href="">
+                <Linked href="https://choi-yoonhyuk.github.io/simple-diary-app/">
                   <Icon src={Code} />
                 </Linked>
-                <Linked href="">
+                <Linked href="https://github.com/choi-yoonhyuk/simple-diary-app">
                   <Icon src={Git} />
                 </Linked>
               </PortWrap2>
@@ -285,14 +282,14 @@ const Project = () => {
                   효과를 적용하였습니다.
                   <br />
                   React Hook , 영화정보를 API로 가져오기 위한 React Query 를
-                  연습할 수 있었습니다.
+                  사용하였습니다.
                 </PortContent>
               </PortWrap1>
               <PortWrap2>
-                <Linked href="">
+                <Linked href="https://choi-yoonhyuk.github.io/react-netflix-clone/">
                   <Icon src={Code} />
                 </Linked>
-                <Linked href="">
+                <Linked href="https://github.com/choi-yoonhyuk/react-netflix-clone/">
                   <Icon src={Git} />
                 </Linked>
               </PortWrap2>
@@ -306,7 +303,7 @@ const Project = () => {
               <PortWrap1>
                 <PortTitle>Coin</PortTitle>
                 <PortContent>
-                  실시간으로 수많은 코인의 시세를 확인할 수 있는 'Coin' 입니다.
+                  실시간으로 코인의 시세를 확인할 수 있는 'Coin' 입니다.
                   <br />
                   수많은 코인 중 Top 100을 선정해 사용자에게 제공합니다.
                   <br />
@@ -315,13 +312,16 @@ const Project = () => {
                   <br />
                   다크모드와 라이트모드를 적용하여 사용자 환경에 맞게 사용할 수
                   있습니다.
+                  <br />
+                  React를 사용하여 만든 서비스 이며, ApexChart, Recoil를
+                  사용하였습니다.
                 </PortContent>
               </PortWrap1>
               <PortWrap2>
-                <Linked href="">
+                <Linked href="https://choi-yoonhyuk.github.io/cryptotracker/">
                   <Icon src={Code} />
                 </Linked>
-                <Linked href="">
+                <Linked href="https://github.com/choi-yoonhyuk/cryptotracker/">
                   <Icon src={Git} />
                 </Linked>
               </PortWrap2>
@@ -339,13 +339,15 @@ const Project = () => {
                   <br />
                   'NETFLEX Clone'을 만들기전 API에 대한 이해와 왜? 리액트로
                   개발하는게 편리한지를 이해할 수 있었습니다.
+                  <br />
+                  React 를 사용하여 만든 서비스입니다.
                 </PortContent>
               </PortWrap1>
               <PortWrap2>
-                <Linked href="">
+                <Linked href="https://tender-poitras-10c4a3.netlify.app/">
                   <Icon src={Code} />
                 </Linked>
-                <Linked href="">
+                <Linked href="https://github.com/choi-yoonhyuk/react-small-movieapp">
                   <Icon src={Git} />
                 </Linked>
               </PortWrap2>
@@ -364,13 +366,14 @@ const Project = () => {
                   Firebase 를 사용하여 효율적인 데이터 쿼리와 실시간 동기화 및
                   오프라인 지원을 제공합니다.
                   <br />
+                  React를 사용하여 만든 서비스입니다.
                 </PortContent>
               </PortWrap1>
               <PortWrap2>
-                <Linked href="">
+                <Linked href="https://choi-yoonhyuk.github.io/nwitter">
                   <Icon src={Code} />
                 </Linked>
-                <Linked href="">
+                <Linked href="https://github.com/choi-yoonhyuk/nwitter">
                   <Icon src={Git} />
                 </Linked>
               </PortWrap2>
@@ -386,15 +389,15 @@ const Project = () => {
                 <PortContent>
                   오직 HTML,CSS로 만든 'StarBucks Clone' 입니다.
                   <br />
-                  처음 공부를 시작할 때 기존 'StarBucks' 페이지를 보고 무작정
-                  따라 만들었습니다.
+                  처음 공부를 시작할 때 기존 'StarBucks' 페이지를 보고 만든
+                  Clone App 입니다.
                 </PortContent>
               </PortWrap1>
               <PortWrap2>
-                <Linked href="">
+                <Linked href="https://sleepy-jones-70e42b.netlify.app/">
                   <Icon src={Code} />
                 </Linked>
-                <Linked href="">
+                <Linked href="https://github.com/choi-yoonhyuk/starbucks">
                   <Icon src={Git} />
                 </Linked>
               </PortWrap2>
