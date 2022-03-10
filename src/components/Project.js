@@ -259,10 +259,10 @@ const Project = () => {
                 </PortContent>
               </PortWrap1>
               <PortWrap2>
-                <Linked href="https://choi-yoonhyuk.github.io/simple-diary-app/">
+                <Linked href="https://kevin-yoonhyuk-react-project.web.app/">
                   <Icon src={Code} />
                 </Linked>
-                <Linked href="https://github.com/choi-yoonhyuk/simple-diary-app">
+                <Linked href="https://github.com/choi-yoonhyuk/emotion-diary">
                   <Icon src={Git} />
                 </Linked>
               </PortWrap2>
