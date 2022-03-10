@@ -154,7 +154,7 @@ const PortContent = styled.div`
     font-size: 13px;
   }
   @media screen and (max-width: 500px) {
-    font-size: 12px;
+    font-size: 10px;
   }
 `;
 
