@@ -228,7 +228,7 @@ const Project = () => {
                   상품을 올리고 결제할 수 있는 "Shopping App" 입니다.
                   <br />
                   Mongodb, Express.js, React.js, Node.js을 사용하여 만든 서비스
-                  입니다.
+                  입니다. (로딩시간이 조금 걸릴 수 있습니다.)
                   <br />
                 </PortContent>
               </PortWrap1>

@@ -90,7 +90,7 @@ function Abouts() {
             <br />- 배려하고 함께 일하는 것을 즐깁니다.
             <br />- 항상 배우는 자세와 노력하는 자세를 중요하게 생각합니다.
           </P>
-          <More href="https://cyber-buffalo-142.notion.site/0fe37c4060d649708641309a31050e08">
+          <More href="https://cyber-buffalo-142.notion.site/f0c91ac8d30e4b509b46c97e286f8524">
             Resume
           </More>
         </Text>
