@@ -9,7 +9,7 @@ const Container = styled.section`
 `;
 
 const Inner = styled.div`
-  width: 100%;
+  width: auto;
   margin: 0 auto;
   position: relative;
   z-index: -1;

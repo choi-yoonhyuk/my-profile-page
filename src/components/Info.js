@@ -16,7 +16,7 @@ const Container = styled.div`
 `;
 
 const Inner = styled.div`
-  width: 1400px;
+  width: auto;
   margin: 0 auto;
   @media screen and (max-width: 1024px) {
     width: 100%;

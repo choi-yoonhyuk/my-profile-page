@@ -16,7 +16,7 @@ const Container = styled.section`
   height: auto;
   background-color: #ecf0f1;
   z-index: 2;
-  width: 100%;
+  width: auto;
 `;
 
 const Inner = styled.div`
@@ -54,7 +54,7 @@ const Video = styled.video`
 `;
 
 const PortWrapper = styled.div`
-  width: 50%;
+  width: auto;
 `;
 
 const TitleWrapper = styled.div`
@@ -131,6 +131,7 @@ const Title = styled.h1`
 
 const PortWrap1 = styled.div`
   padding-left: 100px;
+
   @media screen and (max-width: 500px) {
     padding-left: 50px;
   }
