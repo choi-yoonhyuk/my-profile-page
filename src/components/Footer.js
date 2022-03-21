@@ -62,37 +62,33 @@ const SnsLi = styled.li`
   }
 `;
 
-const Li = styled.li``;
-
-const Link = styled.a``;
-
 function Footer() {
   return (
     <Container>
       <Inner>
         <Logo>Choi</Logo>
         <Contact>
-          <Li>© 2022. Choi Yoon Hyuk. All rights reserved.</Li>
-          <Li>
+          <li>© 2022. Choi Yoon Hyuk. All rights reserved.</li>
+          <li>
             010 3322 4557 |{" "}
-            <Link href="mailto:dbsgur46894689@gmail.com" title="메일 보내기">
+            <a href="mailto:dbsgur46894689@gmail.com" title="메일 보내기">
               dbsgur46894689@gmail.com
-            </Link>
-          </Li>
+            </a>
+          </li>
         </Contact>
         <Sns>
           <SnsLi>
-            <Link href="https://www.linkedin.com/in/yoonhyuk-choi-5487b520b/">
+            <a href="https://www.aedin.com/in/yoonhyuk-choi-5487b520b/">
               LINKEDIN
-            </Link>
+            </a>
           </SnsLi>
           <SnsLi>
-            <Link href="https://github.com/choi-yoonhyuk">GITHUB</Link>
+            <a href="https://github.com/choi-yoonhyuk">GITHUB</a>
           </SnsLi>
           <SnsLi>
-            <Link href="https://www.linkedin.com/in/yoonhyuk-choi-5487b520b/">
+            <a href="https://www.aedin.com/in/yoonhyuk-choi-5487b520b/">
               NOTION
-            </Link>
+            </a>
           </SnsLi>
         </Sns>
       </Inner>

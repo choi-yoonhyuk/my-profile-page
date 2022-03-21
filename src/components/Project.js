@@ -183,8 +183,6 @@ const PortWrap2 = styled.div`
   float: right;
 `;
 
-const Linked = styled.a``;
-
 const Icon = styled.img`
   width: 35px;
   height: 35px;
@@ -232,12 +230,12 @@ const Project = () => {
                 </PortContent>
               </PortWrap1>
               <PortWrap2>
-                <Linked href="https://protected-depths-12640.herokuapp.com/">
+                <a href="https://protected-depths-12640.herokuapp.com/">
                   <Icon src={Code} />
-                </Linked>
-                <Linked href="https://github.com/choi-yoonhyuk/react-online-shop">
+                </a>
+                <a href="https://github.com/choi-yoonhyuk/react-online-shop">
                   <Icon src={Git} />
-                </Linked>
+                </a>
               </PortWrap2>
             </PortWrapper>
           </Box>
@@ -258,12 +256,12 @@ const Project = () => {
                 </PortContent>
               </PortWrap1>
               <PortWrap2>
-                <Linked href="https://kevin-yoonhyuk-react-project.web.app/">
+                <a href="https://kevin-yoonhyuk-react-project.web.app/">
                   <Icon src={Code} />
-                </Linked>
-                <Linked href="https://github.com/choi-yoonhyuk/emotion-diary">
+                </a>
+                <a href="https://github.com/choi-yoonhyuk/emotion-diary">
                   <Icon src={Git} />
-                </Linked>
+                </a>
               </PortWrap2>
             </PortWrapper>
           </Box>
@@ -285,12 +283,12 @@ const Project = () => {
                 </PortContent>
               </PortWrap1>
               <PortWrap2>
-                <Linked href="https://choi-yoonhyuk.github.io/react-netflix-clone/">
+                <a href="https://choi-yoonhyuk.github.io/react-netflix-clone/">
                   <Icon src={Code} />
-                </Linked>
-                <Linked href="https://github.com/choi-yoonhyuk/react-netflix-clone/">
+                </a>
+                <a href="https://github.com/choi-yoonhyuk/react-netflix-clone/">
                   <Icon src={Git} />
-                </Linked>
+                </a>
               </PortWrap2>
             </PortWrapper>
           </Box>
@@ -317,12 +315,12 @@ const Project = () => {
                 </PortContent>
               </PortWrap1>
               <PortWrap2>
-                <Linked href="https://choi-yoonhyuk.github.io/cryptotracker/">
+                <a href="https://choi-yoonhyuk.github.io/cryptotracker/">
                   <Icon src={Code} />
-                </Linked>
-                <Linked href="https://github.com/choi-yoonhyuk/cryptotracker/">
+                </a>
+                <a href="https://github.com/choi-yoonhyuk/cryptotracker/">
                   <Icon src={Git} />
-                </Linked>
+                </a>
               </PortWrap2>
             </PortWrapper>
           </Box>
@@ -343,12 +341,12 @@ const Project = () => {
                 </PortContent>
               </PortWrap1>
               <PortWrap2>
-                <Linked href="https://tender-poitras-10c4a3.netlify.app/">
+                <a href="https://tender-poitras-10c4a3.netlify.app/">
                   <Icon src={Code} />
-                </Linked>
-                <Linked href="https://github.com/choi-yoonhyuk/react-small-movieapp">
+                </a>
+                <a href="https://github.com/choi-yoonhyuk/react-small-movieapp">
                   <Icon src={Git} />
-                </Linked>
+                </a>
               </PortWrap2>
             </PortWrapper>
           </Box>
@@ -369,12 +367,12 @@ const Project = () => {
                 </PortContent>
               </PortWrap1>
               <PortWrap2>
-                <Linked href="https://choi-yoonhyuk.github.io/nwitter">
+                <a href="https://choi-yoonhyuk.github.io/nwitter">
                   <Icon src={Code} />
-                </Linked>
-                <Linked href="https://github.com/choi-yoonhyuk/nwitter">
+                </a>
+                <a href="https://github.com/choi-yoonhyuk/nwitter">
                   <Icon src={Git} />
-                </Linked>
+                </a>
               </PortWrap2>
             </PortWrapper>
           </Box>
@@ -393,12 +391,12 @@ const Project = () => {
                 </PortContent>
               </PortWrap1>
               <PortWrap2>
-                <Linked href="https://sleepy-jones-70e42b.netlify.app/">
+                <a href="https://sleepy-jones-70e42b.netlify.app/">
                   <Icon src={Code} />
-                </Linked>
-                <Linked href="https://github.com/choi-yoonhyuk/starbucks">
+                </a>
+                <a href="https://github.com/choi-yoonhyuk/starbucks">
                   <Icon src={Git} />
-                </Linked>
+                </a>
               </PortWrap2>
             </PortWrapper>
           </Box>
