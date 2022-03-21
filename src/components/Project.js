@@ -9,7 +9,6 @@ import D from "../static/d.mp4";
 import E from "../static/e.mp4";
 import F from "../static/f.mp4";
 import G from "../static/g.mp4";
-import { useEffect } from "react";
 
 const Container = styled.section`
   padding: 100px 0;
@@ -26,7 +25,6 @@ const Inner = styled.div`
 
 const Grid = styled.div`
   display: grid;
-  width: 100%;
   grid-template-columns: repeat(1, 1fr);
   gap: 100px;
 `;
@@ -188,8 +186,8 @@ const PortWrap2 = styled.div`
 const Linked = styled.a``;
 
 const Icon = styled.img`
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   @media screen and (max-width: 1024px) {
     width: 30px;
     height: 30px;

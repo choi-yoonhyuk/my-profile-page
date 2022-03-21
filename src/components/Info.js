@@ -176,7 +176,7 @@ function Info() {
 
   useEffect(() => {
     window.addEventListener("scroll", updateScroll);
-  });
+  }, [scrollPos]);
 
   const boxVariants = {
     start: {
@@ -188,7 +188,7 @@ function Info() {
       opacity: 1,
       transition: {
         type: "spring",
-        duration: 1.5,
+        duration: 1,
         bounce: 0.1,
         delayChildren: 0.5,
         staggerChildren: 0.2,
