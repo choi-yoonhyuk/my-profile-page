@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/my-profile-page/static/css/main.6df62e10.css",
-    "main.js": "/my-profile-page/static/js/main.0fe8b837.js",
+    "main.js": "/my-profile-page/static/js/main.e55ae896.js",
     "static/media/d.mp4": "/my-profile-page/static/media/d.251d6e79af4be5496c0d.mp4",
     "static/media/b.mp4": "/my-profile-page/static/media/b.0c7f2d9a08c4308e0715.mp4",
     "static/media/c.mp4": "/my-profile-page/static/media/c.395c4b03fece59fe29a7.mp4",
     "static/media/f.mp4": "/my-profile-page/static/media/f.ca34d6ab527e3bf4a8b1.mp4",
+    "static/media/wave.mp4": "/my-profile-page/static/media/wave.320e58188979ef7f3f1f.mp4",
     "static/media/g.mp4": "/my-profile-page/static/media/g.560d38c28095dd059e1a.mp4",
-    "static/media/wave.mp4": "/my-profile-page/static/media/wave.1be53079776d8bec8d3e.mp4",
     "static/media/e.mp4": "/my-profile-page/static/media/e.3292c5003ccef80984ca.mp4",
     "static/media/a.mp4": "/my-profile-page/static/media/a.9df57ce5b94fa74bf784.mp4",
     "static/media/skill1.jpg": "/my-profile-page/static/media/skill1.1f0da91a57a893aae427.jpg",
@@ -18,10 +18,10 @@
     "static/media/location.png": "/my-profile-page/static/media/location.e13bdb1a6ae031aa445e.png",
     "index.html": "/my-profile-page/index.html",
     "main.6df62e10.css.map": "/my-profile-page/static/css/main.6df62e10.css.map",
-    "main.0fe8b837.js.map": "/my-profile-page/static/js/main.0fe8b837.js.map"
+    "main.e55ae896.js.map": "/my-profile-page/static/js/main.e55ae896.js.map"
   },
   "entrypoints": [
     "static/css/main.6df62e10.css",
-    "static/js/main.0fe8b837.js"
+    "static/js/main.e55ae896.js"
   ]
 }
